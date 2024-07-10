@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" >
+    <title>Title</title>
+    <link rel="stylesheet" th:href="@{/bootstrap.css}">
+    <!-- 引入bootstrap.css文件-->
+</head>
+<body class="">
+    <table class="table table-hover"><!--使用bootstrap美化界面 -->
+        <h1>嘉宾列表</h1>
+        <thead>
+            <th>人名</th>
+            <th>职位</th>
+        </thead>
+        <tbody>
+            <tr th:each="guest:${guestList}"><!--遍历传递过来的guestList集合 -->
+                <td th:text="${guest.name}">name</td><!--先写一个默认值name,再用动态值替换掉 -->
+                <td th:text="${guest.role}">role</td>
+            <tr>
+        </tbody>
+
+    </table>
+
+</body>
+</html>

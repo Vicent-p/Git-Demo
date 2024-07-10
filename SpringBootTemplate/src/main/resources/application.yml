@@ -1,0 +1,7 @@
+spring:
+  application:
+  name: SpringBootTemplate
+  mvc:
+    view:
+      prefix: /templates/
+      suffix: .ftl

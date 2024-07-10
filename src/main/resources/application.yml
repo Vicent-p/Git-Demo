@@ -1,0 +1,19 @@
+spring:
+  profiles:
+    active: product
+    #上述active属性表示使用dev的配置，端口号是8090
+---
+#上述字符表示一个文档的开始
+#开发环境
+spring:
+  profiles: dev
+
+server:
+  port: 8090
+---
+#生产环境
+spring:
+  profiles: product
+
+server:
+  port: 8010

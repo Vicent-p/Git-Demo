@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "car",
+      "type": "com.config.CarConfig",
+      "sourceType": "com.config.CarConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "car.color",
+      "type": "java.lang.String",
+      "sourceType": "com.config.CarConfig"
+    },
+    {
+      "name": "car.price",
+      "type": "java.lang.Float",
+      "sourceType": "com.config.CarConfig"
+    }
+  ],
+  "hints": []
+}

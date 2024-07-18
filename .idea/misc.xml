@@ -11,6 +11,11 @@
         <option value="$PROJECT_DIR$/SpringBoot-Mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBoot-JPA/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBoot-Test/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-MybatisPlus/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-Event/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-webcontainer/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-servlet/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-ErrorAndException/pom.xml" />
       </list>
     </option>
   </component>

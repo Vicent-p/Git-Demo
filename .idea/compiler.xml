@@ -11,20 +11,30 @@
         <module name="SpringBoot-Mybatis" />
         <module name="SpringBootTemplate" />
         <module name="SpringBoot-JPA" />
+        <module name="SpringBoot-webcontainer" />
         <module name="SpringBoot-Restful" />
+        <module name="SpringBoot-servlet" />
         <module name="TestSpringBoot" />
         <module name="SpringBoot-thymeleaf-CRUD" />
+        <module name="SpringBoot-MybatisPlus" />
+        <module name="SpringBoot-Event" />
+        <module name="SpringBoot-ErrorAndException" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="SpringBoot-ErrorAndException" options="-parameters" />
+      <module name="SpringBoot-Event" options="-parameters" />
       <module name="SpringBoot-JPA" options="-parameters" />
       <module name="SpringBoot-Mybatis" options="-parameters" />
+      <module name="SpringBoot-MybatisPlus" options="-parameters" />
       <module name="SpringBoot-Restful" options="-parameters" />
       <module name="SpringBoot-Test" options="-parameters" />
+      <module name="SpringBoot-servlet" options="-parameters" />
       <module name="SpringBoot-thymeleaf-CRUD" options="-parameters" />
+      <module name="SpringBoot-webcontainer" options="-parameters" />
       <module name="SpringBootTemplate" options="-parameters" />
       <module name="TestSpringBoot" options="-parameters" />
     </option>

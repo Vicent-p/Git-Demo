@@ -2,20 +2,20 @@
   "groups": [
     {
       "name": "car",
-      "type": "com.config.CarConfig",
-      "sourceType": "com.config.CarConfig"
+      "type": "com.example.config.CarConfig",
+      "sourceType": "com.example.config.CarConfig"
     }
   ],
   "properties": [
     {
       "name": "car.color",
       "type": "java.lang.String",
-      "sourceType": "com.config.CarConfig"
+      "sourceType": "com.example.config.CarConfig"
     },
     {
       "name": "car.price",
       "type": "java.lang.Float",
-      "sourceType": "com.config.CarConfig"
+      "sourceType": "com.example.config.CarConfig"
     }
   ],
   "hints": []

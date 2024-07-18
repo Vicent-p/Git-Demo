@@ -1,6 +1,6 @@
 package com.example.controller;
 
-import com.config.CarConfig;
+import com.example.config.CarConfig;
 import com.domain.Car;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;

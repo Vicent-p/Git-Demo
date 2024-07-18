@@ -1,6 +1,6 @@
 package com.example.service;
 
-import com.example.dao.GuestDao;
+import com.example.mapper1.GuestDao;
 import com.example.domain.Guest;
 import com.example.service.impl.GuestService;
 import org.springframework.beans.factory.annotation.Autowired;

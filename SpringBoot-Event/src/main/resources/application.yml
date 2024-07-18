@@ -1,0 +1,7 @@
+spring:
+  application:
+  name: SpringBoot-Event
+
+context:
+  listener:
+    classes: com.example.listener.CustomListener4

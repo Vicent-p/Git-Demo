@@ -7,6 +7,7 @@ import lombok.NoArgsConstructor;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import java.io.Serializable;
 
@@ -15,12 +16,13 @@ import java.io.Serializable;
 public class Emp implements Serializable {
 
     @Id
-    private Long id;
-    @Column
+    @Column(name = "empno")
     private Integer empno;
-    @Column
+
+    @Column(name = "ename")
     private String ename;
-    @Column
+
+    @Column(name = "sal")
     private Float sal;
 
 

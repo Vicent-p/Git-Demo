@@ -21,7 +21,7 @@ public class EmpController {
         for (Emp emp : list) {
             System.out.println(emp);
         }
-        return "index";
+       return "index";
     }
     @RequestMapping("/test")
     public void selectOne(){

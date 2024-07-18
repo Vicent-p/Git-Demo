@@ -10,14 +10,15 @@
         <module name="SpringBoot-Test" />
         <module name="SpringBoot-Mybatis" />
         <module name="SpringBootTemplate" />
-        <module name="SpringBoot-JPA" />
         <module name="SpringBoot-webcontainer" />
         <module name="SpringBoot-Restful" />
         <module name="SpringBoot-servlet" />
+        <module name="SpringBoot-log" />
         <module name="TestSpringBoot" />
+        <module name="SpringBoot-Event" />
+        <module name="SpringBoot-JPA" />
         <module name="SpringBoot-thymeleaf-CRUD" />
         <module name="SpringBoot-MybatisPlus" />
-        <module name="SpringBoot-Event" />
         <module name="SpringBoot-ErrorAndException" />
       </profile>
     </annotationProcessing>
@@ -32,6 +33,7 @@
       <module name="SpringBoot-MybatisPlus" options="-parameters" />
       <module name="SpringBoot-Restful" options="-parameters" />
       <module name="SpringBoot-Test" options="-parameters" />
+      <module name="SpringBoot-log" options="-parameters" />
       <module name="SpringBoot-servlet" options="-parameters" />
       <module name="SpringBoot-thymeleaf-CRUD" options="-parameters" />
       <module name="SpringBoot-webcontainer" options="-parameters" />
